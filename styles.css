@@ -1,0 +1,89 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Make page take full height */
+html, body {
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #E6E6E6; /* light gray */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  color: #39393A; /* charcoal text */
+}
+
+/* Limit content width */
+header, section, footer {
+  max-width: 800px;
+  width: 100%;
+}
+
+/* Header styles */
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #E9D758; /* gold yellow */
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #297373; /* teal green */
+}
+
+/* Optional profile image */
+header img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 20px auto;
+  display: block;
+  object-fit: cover;
+  border: 3px solid #FF8552; /* coral orange border */
+}
+
+/* Projects section */
+section {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(57, 57, 58, 0.1); /* charcoal with opacity */
+  margin-bottom: 30px;
+}
+
+section h2 {
+  font-size: 1.8rem;
+  color: #FF8552; /* coral orange */
+  margin-bottom: 15px;
+}
+
+section ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+section li {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  color: #39393A;
+}
+
+/* Footer */
+footer {
+  background-color: #39393A; /* dark background */
+  padding: 15px;
+  text-align: center;
+  width: 100%;
+  color: #E6E6E6; /* light gray text */
+  border-top: 2px solid #297373; /* teal top border */
+  margin-top: auto;
+}
